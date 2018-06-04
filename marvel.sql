@@ -85,4 +85,19 @@ INSERT INTO movies (title, year, show_time) VALUES ('Black Panther', 2018, '15:0
 -- SELECT * FROM people;
 
 -- 8
-INSERT INTO movies
+-- INSERT INTO movies (title, year, show_time) VALUES ('Avengers: Infinity War', 2010, '12:00');
+-- SELECT * FROM movies;
+
+-- 9
+-- SELECT show_time FROM movies WHERE title = 'Guardians of the Galaxy';
+-- UPDATE movies SET show_time = '21:05' WHERE title = 'Guardians of the Galaxy 2';
+-- SELECT * FROM movies;
+
+
+
+--
+-- SELECT * FROM characters WHERE id = 9;
+-- -- SELECT JUST ID 9 INSERT
+--
+-- UPDATE characters SET age = 29 WHERE id = 9;
+-- -- UPDATE AGE FOR ID 9
