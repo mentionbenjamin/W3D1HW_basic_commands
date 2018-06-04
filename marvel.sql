@@ -94,10 +94,7 @@ INSERT INTO movies (title, year, show_time) VALUES ('Black Panther', 2018, '15:0
 -- SELECT * FROM movies;
 
 
-
---
--- SELECT * FROM characters WHERE id = 9;
--- -- SELECT JUST ID 9 INSERT
---
--- UPDATE characters SET age = 29 WHERE id = 9;
--- -- UPDATE AGE FOR ID 9
+--10
+-- DELETE FROM movies
+-- where id between 1 and 13;
+-- SELECT * FROM movies;
